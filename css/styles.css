@@ -716,7 +716,7 @@ select {
         margin: 0;
         padding: 45px;
         position: absolute;
-        top: 35px;
+        top: 0px;
         text-align: center;
         width: 100%;
         height: min-content;
@@ -731,7 +731,7 @@ select {
     #gallery:hover .gallery__img::after {
         content: "";
         opacity: .7;
-        top: 224px;
+        top: 60%;
         left: -10px;
         height: 50px;
         width: 50px;
@@ -743,7 +743,7 @@ select {
         content: "";
         opacity: .7;
         z-index: 1;
-        top: 224px;
+        top: 60%;
         right: -10px;
         height: 50px;
         width: 50px;
